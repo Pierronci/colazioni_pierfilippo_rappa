@@ -1,0 +1,217 @@
+body {
+    background-color: #3fa054;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+section.hero img {
+   align-items: right;
+   height: 500px;
+   object-fit: cover;
+   float: right;
+}
+
+section.card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.card2 img {
+    max-width: 400px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    object-fit: cover;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h5 {
+    margin: 0;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color:#17650d;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+main h2 {
+    margin: 50;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+section.hero h2 {
+    padding: 100px 0 0 10px;
+    text-align: left;
+    color: #fff;
+    font-size: 36px;
+}
+
+section.hero h3{
+    margin-top: -300px;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+} 
+
+section.hero h4{
+    margin-top: -270px;
+    padding: 0 0 0 15px;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+}
+
+section.hero {
+    background-color: #17650d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0 0 0;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 40px;
+}
+
+section.card {
+    padding: 10px 0 0 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px; 
+    border-radius: 0 0 10px 10px;
+}
+
+section.card h3, section.card p {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+section.card h3 {
+    margin-top:10px;
+    color: #ffffff;
+}
+
+section.card2 h3 {
+    color: #ffffff;
+    padding: 0 0 0 10px;
+}
+
+section.card2 p {
+    color: #ffffff;
+    padding: 0 0 0 10px;
+}
+
+
+section.card2  {
+    color: #ffffff;
+    background-color: #17650d;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.oceano {
+    width: 350px;
+    padding-right: 10px;
+    object-fit: contain;
+}
+
+section.card p {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+
+section.card img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+section.conclusione{
+    background-color: #17650d;
+    border-radius: 10px 10px 10px 10px;
+}
+
+section.conclusione h2{
+    padding: 150px 0 0 20px;
+    text-align: left;
+    color: #fff;
+}
+
+section.conclusione h3{
+    padding: 0 0 0 20px;
+    color: #fff;
+    padding: 0 0 150px 20px;
+}
+
+ h4{
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #17650d;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin-top: -1px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer.p:hover{
+    color: grey; 
+}
+
+h2 {
+    padding: 80px 0 0 0;
+}
